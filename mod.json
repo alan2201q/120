@@ -1,0 +1,27 @@
+{
+	"geode": "4.0.0",
+	"gd": {
+		"win": "*",
+		"android": "*",
+		"mac": "*",
+		"ios": "*"
+	},
+	"id": "user.fps-unlock",
+	"name": "FPS Unlock",
+	"version": "v1.0.0",
+	"developer": "user",
+	"description": "Desbloquea el framerate (hasta 120 FPS en ProMotion).",
+	"settings": {
+		"fps": {
+			"type": "int",
+			"name": "FPS objetivo",
+			"description": "Framerate objetivo. 120 requiere pantalla ProMotion.",
+			"default": 120,
+			"min": 30,
+			"max": 120,
+			"control": {
+				"slider": true
+			}
+		}
+	}
+}
